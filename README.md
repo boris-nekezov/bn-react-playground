@@ -16,6 +16,12 @@ yarn create react-app my-app --template redux-typescript
 ## Features
 
 - ## React Router
+
+```sh
+# install react-router-dom and its type definitions
+npm install --save react-router-dom @types/react-router-dom
+```
+
 - ## Axios
 - ## Material UI
 
