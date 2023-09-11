@@ -1,5 +1,7 @@
 # BN JSON PLACEHOLDER PLAYGROUND
 
+## Description: Just another pet project.
+
 ## Template used to create this application:
 
 - ### cra-template-redux-typescript
@@ -11,6 +13,7 @@ npx create-react-app my-app --template redux-typescript
 # or
 
 yarn create react-app my-app --template redux-typescript
+
 ```
 
 ## Features
@@ -22,8 +25,62 @@ yarn create react-app my-app --template redux-typescript
 npm install --save react-router-dom @types/react-router-dom
 ```
 
-- ## Axios
 - ## Material UI
+
+### Minimal ts config in `tsconfig.json`
+
+```json
+{
+	"compilerOptions": {
+		"lib": ["es6", "dom"],
+		"noImplicitAny": true,
+		"noImplicitThis": true,
+		"strictNullChecks": true
+	}
+}
+```
+
+### Default installation
+
+```sh
+# Run one of the following commands to add Material UI to your project:
+npm install @mui/material @emotion/react @emotion/styled
+
+yarn add @mui/material @emotion/react @emotion/styled
+
+pnpm add @mui/material @emotion/react @emotion/styled
+
+```
+
+### Roboto font
+
+```sh
+# Material UI uses the Roboto font by default. Add it to your project via Fontsource
+npm install @fontsource/roboto
+
+```
+
+import it in index.tsx
+
+```tsx
+import '@fontsource/roboto/300.css';
+import '@fontsource/roboto/400.css';
+import '@fontsource/roboto/500.css';
+import '@fontsource/roboto/700.css';
+```
+
+### Icons
+
+```sh
+# To use the font Icon component or the prebuilt SVG Material Icons (such as those found in the icon demos), you must first install the Material Icons font.
+npm install @mui/icons-material
+
+yarn add @mui/icons-material
+
+pnpm add @mui/icons-material
+```
+
+- ## Axios
 
 ## Getting Started with Create React App
 

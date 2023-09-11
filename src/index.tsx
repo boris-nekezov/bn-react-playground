@@ -8,13 +8,18 @@ import App from './App';
 
 import reportWebVitals from './reportWebVitals';
 
-import './index.css';
 import Posts from './pages/Posts';
 import Comments from './pages/Comments';
 import Albums from './pages/Albums';
 import Photos from './pages/Photos';
 import Todos from './pages/Todos';
 import Users from './pages/Users';
+
+import '@fontsource/roboto/300.css';
+import '@fontsource/roboto/400.css';
+import '@fontsource/roboto/500.css';
+import '@fontsource/roboto/700.css';
+import './index.css';
 
 const container = document.getElementById('root')!;
 const root = createRoot(container);
